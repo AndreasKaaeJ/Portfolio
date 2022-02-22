@@ -1,3 +1,12 @@
 {
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    // enable globally (here: format on save)
+    "editor.formatOnSave": true,
+    // enable per-language (here: Prettier as formatter)
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[HTML]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
